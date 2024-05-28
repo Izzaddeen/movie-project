@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Sedan+SC&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.cart-full{
+    background-image: radial-gradient(circle at center center, transparent,rgb(0,0,0)),linear-gradient(114deg, rgba(59, 59, 59,0.05) 0%, rgba(59, 59, 59,0.05) 50%,rgba(63, 63, 63,0.05) 50%, rgba(63, 63, 63,0.05) 100%),linear-gradient(186deg, rgba(173, 173, 173,0.05) 0%, rgba(173, 173, 173,0.05) 50%,rgba(237, 237, 237,0.05) 50%, rgba(237, 237, 237,0.05) 100%),linear-gradient(98deg, rgba(191, 191, 191,0.05) 0%, rgba(191, 191, 191,0.05) 50%,rgba(119, 119, 119,0.05) 50%, rgba(119, 119, 119,0.05) 100%),linear-gradient(58deg, rgba(95, 95, 95,0.05) 0%, rgba(95, 95, 95,0.05) 50%,rgba(189, 189, 189,0.05) 50%, rgba(189, 189, 189,0.05) 100%),linear-gradient(259deg, rgba(31, 31, 31,0.05) 0%, rgba(31, 31, 31,0.05) 50%,rgba(110, 110, 110,0.05) 50%, rgba(110, 110, 110,0.05) 100%),linear-gradient(41deg, rgba(142, 142, 142,0.05) 0%, rgba(142, 142, 142,0.05) 50%,rgba(84, 84, 84,0.05) 50%, rgba(84, 84, 84,0.05) 100%),linear-gradient(134deg, rgba(96, 96, 96,0.05) 0%, rgba(96, 96, 96,0.05) 50%,rgba(198, 198, 198,0.05) 50%, rgba(198, 198, 198,0.05) 100%),linear-gradient(46deg, rgba(12, 12, 12,0.05) 0%, rgba(12, 12, 12,0.05) 50%,rgba(71, 71, 71,0.05) 50%, rgba(71, 71, 71,0.05) 100%),radial-gradient(circle at center center, hsl(227,81%,21%),hsl(227,81%,21%));
+    width: 100%;
+    height: 100%;
+}
+.cart-card{
+    background-color:lightgray;
+    border-width: 3px;
+    border-color: rgb(40, 1, 75);
+}
+.cart-img{
+    padding-left: 5%;
+    padding-top: 2%;
+    border-radius: 10px;
+}
+
+.plus{
+    border: none;
+    gap: 10px;
+    font-weight: bold;
+    
+}
+.remove-btn{
+    background-color:rgb(40, 1, 75) ;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: "Teko", sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.rs-total{
+    font-family: "PT Serif", serif;
+}
+.movie-name{
+    font-family: "Sedan SC", serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.cart-last{
+    font-size: 25px;
+    font-family: "PT Serif", serif;
+    font-weight: bold;
+    color:rgb(205, 20, 116) ;
+}
+.cart-last1{
+    font-family: "Teko", sans-serif;
+    color: rgb(40, 1, 75);
+}

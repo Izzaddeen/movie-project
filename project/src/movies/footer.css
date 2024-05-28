@@ -1,0 +1,94 @@
+.footer-container{
+    background-color: #000000;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+.footer-contents{
+    max-width:1200px ;
+    margin: 0 5% 0 10%;
+    padding: 0 20px;
+}
+.footer-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-col1{
+    flex: 1;
+    min-width: 250px;
+    padding: 10px;
+}
+.col1-h4{
+    margin-bottom: 20px;
+    color: white;
+    font-weight: bold;
+}
+.col1-form{
+    display: flex;
+}
+.col1-input{
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+}
+.col1-btn{
+    padding: 10px 20px;
+    background-color: #a5127e;
+    border: none;
+    color: #fff;
+}
+.footer-col2{
+    flex: 1;
+    min-width: 250px;
+    padding: 10px;
+}
+.col2-h4{
+    margin-bottom: 20px;
+    color: white;
+    font-weight: bold;
+}
+.col2-ul{
+    list-style: none;
+    padding: 0;
+
+}
+.col2-ul li{
+    text-align: center;
+    
+}
+.col2-a{
+    text-decoration: none;
+    color:#fff;
+ 
+}
+.col2-a:hover{
+    color: yellow;
+}
+.footer-col3{
+    flex: 1;
+    min-width: 250px;
+    padding: 10px;
+}
+.col3-h4{
+    margin-bottom: 20px;
+    color: white;
+    font-weight: bold;
+}
+.col3-p{
+    color: white;
+    text-align: center;
+}
+hr{
+    color: yellow;
+    background-color: yellow;
+    font-weight: bold;
+}
+.footer-last{
+    text-align: center;
+    padding: 22px 0 0px 0;
+    /* border-top: 1px solid #444; */
+}
+.footer-last p{
+    color: white;
+}

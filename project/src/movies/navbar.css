@@ -1,0 +1,127 @@
+ @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Sedan+SC&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Sedan+SC&display=swap');
+
+.navbar {
+    text-align: center;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    background-size: cover;
+    height: 12vh;
+    position: sticky;
+    width: 100%;
+    background-color: rgb(4, 31, 52);
+}
+
+/* .navbar.transparent {
+    background: black;
+}
+
+.navbar.colored {
+    background: rgb(34, 5, 62);
+} */
+
+#navlist {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 25px;
+    text-decoration: none;
+    font-size: 25px;
+    padding-top: 1.5%;
+   
+}
+
+#linkk {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "Teko", sans-serif;
+}
+
+#linkk:hover {
+    color: rgb(235, 156, 197);
+}
+/* .carticon{
+  display: flex;
+  justify-content: right;
+  float: right;
+} */
+.carticon span {
+    background: transparent;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 0 0 3px 3px;
+    border-radius: 20%;
+    font-size: 18px;
+    z-index: -1;
+    text-decoration: none;
+}
+.logout{
+  background-color: transparent;
+  backdrop-filter: blur(50px);
+  border: 1px solid white ;
+  border-radius: 5px;
+  color: white;
+}
+
+
+
+
+
+ /*nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.nav-transparent {
+  background-color: transparent;
+}
+
+.nav-opaque {
+  background-color: #333; 
+}*/
+
+/* .navlist {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+} */
+
+/* .navlist li {
+  display: inline;
+}
+
+.navlist a, .navlist .logout {
+  color: white; 
+  text-decoration: none;
+  padding: 14px 20px;
+  display: block;
+}
+
+.navlist .logout {
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: white;
+}
+
+.navlist a:hover, .navlist .logout:hover {
+  background-color: #575757; 
+}
+
+.carticon {
+  display: flex;
+  align-items: center;
+} */ 
+
+ 
+  
