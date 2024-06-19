@@ -113,7 +113,7 @@ const Movies = ({ handleClick }) => {
   useEffect(() => {
     const fetchMovies = async () => {
       try {
-        const response = await fetch("https://backend-crud-one.vercel.app/product");
+        const response = await fetch("https://movie-api-1-grk8.onrender.com/movie");
         const data = await response.json();
         setMovies(data);
       } catch (error) {
@@ -149,7 +149,7 @@ const Movies = ({ handleClick }) => {
       <Slider ref={sliderRef} {...settings}>
         {movies.map((movie) => (
           <div key={movie.id} className="movie-card">
-            <img src={movie.image} alt={movie.title} className="movie-poster" />
+            <img src={movie.poster} alt={movie.title} className="movie-poster" />
             <div className="movie-overlay">
               <h3 className="movie-title">{movie.title}</h3>
               <p className="movie-year">Released: {movie.releasedate}</p>

@@ -8,7 +8,7 @@ export default function Viewbutton() {
   const { _id } = useParams();
 
   useEffect(() => {
-    const url = `https://backend-crud-one.vercel.app/product/${_id}`;
+    const url = `https://movie-api-1-grk8.onrender.com/movie/${_id}`;
     
     fetch(url)
       .then((response) => response.json())
@@ -28,7 +28,7 @@ export default function Viewbutton() {
             <Row style={{height:"100%"}}>
                 <Col lg={4}>
                     <div>
-                        <img src={view.image} alt="image" className="viewbut-poster"></img>
+                        <img src={view.poster} alt="image" className="viewbut-poster"></img>
                     </div>
                 </Col>
                 <Col lg={8}>
